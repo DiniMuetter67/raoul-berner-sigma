@@ -1,4 +1,12 @@
 /* Dark Mode ONLY. No negotiations. */
+.hero-stat {
+  margin-top: 10px;
+  font-family: ui-monospace, monospace;
+  letter-spacing: .14em;
+  color: var(--hl);
+  text-transform: uppercase;
+}
+
 :root{
   --bg:#0b0f14;
   --panel:#0f1620;
@@ -233,6 +241,17 @@ p{max-width:72ch}
   font-weight:700;
   min-width:44px;
 }
+.anti-guide {
+  margin: 14px 0;
+  padding-left: 18px;
+  display: grid;
+  gap: 10px;
+  font-size: 16px;
+}
+
+.anti-guide li::marker {
+  color: var(--danger);
+}
 
 /* Facts */
 .facts{
@@ -419,16 +438,3 @@ p{max-width:72ch}
   color: var(--hl);
   min-width: 90px;
 }
-
-.anti-guide {
-  margin: 14px 0;
-  padding-left: 18px;
-  display: grid;
-  gap: 10px;
-  font-size: 16px;
-}
-
-.anti-guide li::marker {
-  color: var(--danger);
-}
-
