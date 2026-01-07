@@ -398,3 +398,24 @@ p{max-width:72ch}
     animation:none !important;
   }
 }
+.moments {
+  display: grid;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.moment {
+  display: flex;
+  gap: 14px;
+  padding: 14px;
+  border-radius: 14px;
+  border: 1px solid var(--line);
+  background: rgba(255,255,255,.03);
+}
+
+.time {
+  font-family: ui-monospace, monospace;
+  letter-spacing: .12em;
+  color: var(--hl);
+  min-width: 90px;
+}
