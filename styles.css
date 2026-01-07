@@ -1,4 +1,3 @@
-/* Dark Mode ONLY. No negotiations. */
 .hero-stat {
   margin-top: 10px;
   font-family: ui-monospace, monospace;
@@ -7,6 +6,7 @@
   text-transform: uppercase;
 }
 
+/* Dark Mode ONLY. No negotiations. */
 :root{
   --bg:#0b0f14;
   --panel:#0f1620;
